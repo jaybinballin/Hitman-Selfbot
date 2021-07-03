@@ -6,4 +6,6 @@ Instructions:
 
 2: Dont Skid Weirdo
 
-For Help DM godfather#0001
+For Help DM amiri#1800
+
+Note: All those hitman selfbots on youtube are loggers ! this is the original
